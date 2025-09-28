@@ -6,7 +6,7 @@ console.log("satish kumar")
 //variable are given below
 let name="satish kumar yadav"
 let age=18
-let islogedin=true
+let iSlogedin=true
 //datatypes are:
 //number=> 2to the power 53
 //Bigint
