@@ -8,6 +8,8 @@ console.log(item) // it acces the key and value both
 console.log(item["kitkat"]) // for accesing the value of key we write the name of key in double quotesin the class
 item["kissme"]="45" // adding new key and value to the object
 item["kitkat"]="12" //updating the value of key
+console.log(item["kitkat"])
+console.log(item["kissme"])
 
 // you can see there i defined const to the item of object
 // so in object we chahnge the key and value 
