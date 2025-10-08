@@ -47,4 +47,46 @@ if(num>=0){
 else{
     console.log("Number is negative")
 }
+
 // Switch case
+
+/* switch(Expression)
+  {
+    case: vlaue1
+        //code
+        break;
+    case: value 2
+        //code
+        break;
+    default:
+        //code
+}
+*/
+
+let day=prompt("Enter the day numbes")
+day= Number.parseInt(day)
+switch(day){
+    case 1:
+        console.log("Monday")
+        break;
+    case 2:
+        console.log("Tuesday")
+        break;
+    case 3:
+        console.log("Wednesday")
+        break;
+    case 4:
+        console.log("Thrusday")
+        break;
+    case5:
+        console.log("Friday")
+        break;
+    case 6:
+        console.log("Saturday")
+    case 7:
+        console.log("Sunday")
+        break
+    default :
+        console.log("Invalid daay numberr")
+
+     }

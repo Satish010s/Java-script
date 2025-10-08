@@ -18,10 +18,10 @@
         console.log("the sum of all value is",sum)
         if(sum>0){
          console.log("+")
-    }
+        }
         else{
-    console.log("-")
-    }
+            console.log("-")
+        }
         //write a program to sort three number in ascennding order
 
         let x=parseInt(prompt("Enter three number "))
@@ -36,26 +36,56 @@
             }
         }
         //Largest of five numbers
-let p=parseInt(prompt("Enter the number "))
-let q=parseInt(prompt("Enter the number"))
-let r=parseInt(prompt("Enter the number"))
-let s=parseInt(prompt("Enter the number"))
-let t=parseInt(prompt("Enter the number"))
-if(p>r && p>q && p>r && p>s && p>t){
-    console.log(p)
-}
-else if(q>p && q>r && q>s && q>t){
-    console.log(q)
-}
-else if(r>p && r>q &&  r>s && r>t){
-    console.log(r)
-}
-else if(s>p && s>q && s>r && s>t){
-    console.log(s)
-}
-else{
-    console.log(t)
-}
+        let p=parseInt(prompt("Enter the number "))
+        let q=parseInt(prompt("Enter the number"))
+        let r=parseInt(prompt("Enter the number"))
+        let s=parseInt(prompt("Enter the number"))
+        let t=parseInt(prompt("Enter the number"))
+        if(p>r && p>q && p>r && p>s && p>t){
+            console.log(p)
+        }
+        else if(q>p && q>r && q>s && q>t){
+            console.log(q)
+        }
+        else if(r>p && r>q &&  r>s && r>t){
+            console.log(r)
+        }
+        else if(s>p && s>q && s>r && s>t){
+            console.log(s)
+        }
+        else{
+            console.log(t)
+        }
+
+// weekday 
+        let day=prompt("Enter the day numbes")
+        day= Number.parseInt(day)
+        switch(day){
+            case 1:
+                console.log("Monday")
+                break;
+            case 2:
+                console.log("Tuesday")
+                break;
+            case 3:
+                console.log("Wednesday")
+                break;
+            case 4:
+                console.log("Thrusday")
+                 break;
+            case5:
+                console.log("Friday")
+                break;
+            case 6:
+                console.log("Saturday")
+                break;
+            case 7:
+                console.log("Sunday")
+                 break
+            default :
+                console.log("Invalid daay numberr")
+
+         }
     </script>
 </body>
 </html>
